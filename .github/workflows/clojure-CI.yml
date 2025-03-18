@@ -1,0 +1,28 @@
+name: Clojure CI
+
+on:
+  pull_request:
+    types: [ opened, reopened, synchronize ]
+
+defaults:
+  run:
+    working-directory: ./lab_4
+
+jobs:
+  build-clojure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install dependencies
+        run: lein deps
+      - name: Run with lein
+        run: lein run
+  test-clojure:
+    needs: build-clojure
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install dependencies
+        run: lein deps
+      - name: Run tests
+        run: lein test
