@@ -1,4 +1,4 @@
-(ns task2.core)
+(ns task2.src.task2.core)
 (defn new-filter-layer
   [number s] (filter
                (fn [t]
@@ -19,4 +19,4 @@
 
 ; На каждое число в последовательности создаётся фильтр, который отсеевает по условию решета Эратосфена.
 ;  Time для демонстрации кэширования
-;(print (doall (take 20 (prime-set))))
+(print (doall (take 20 (prime-set))))

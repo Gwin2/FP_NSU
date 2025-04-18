@@ -1,4 +1,4 @@
-(ns task4.core)
+(ns task4.src.task4.core)
 
 (declare supply-msg)
 (declare notify-msg)

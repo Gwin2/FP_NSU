@@ -1,4 +1,4 @@
-(ns task1.core)
+(ns task1.src.task1.core)
 (use '[clojure.string :only [ends-with?]])
 ;(remove #{elem} alphabet))))
 ;(some

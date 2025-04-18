@@ -1,4 +1,4 @@
-(ns task5.core)
+(ns task5.src.task5.core)
 
 (def philosophersNumber 5)
 (def thinkTime 10)
