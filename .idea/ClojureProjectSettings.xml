@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ClojureProjectSettings">
+    <option name="replScopeMapping">
+      <list>
+        <SerialisedReplScopeSetting>
+          <option name="replName" value="THE REPL" />
+          <option name="serialisedScope" value="file:file://C:/Users/snytk/IdeaProjects/Func_prog_lab/src/lab_1/1.clj" />
+        </SerialisedReplScopeSetting>
+      </list>
+    </option>
+  </component>
+</project>
